@@ -32,6 +32,6 @@ app.post('/generate-our-image-brotha', async (req, res)=> {
 
 
 
-const PORT = 1121
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, ()=> console.log("Server is running brotha..."))
