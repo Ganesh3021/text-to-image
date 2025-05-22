@@ -53,7 +53,7 @@ const Nvidia = () => {
 
       {/* Dashboard Button in the top right corner */}
       <div className="absolute top-4 right-4">
-        <Link href="/dashboard" passHref legacyBehavior>
+        <Link href="https://visual-ai-flax.vercel.app/dashboard" passHref legacyBehavior>
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
